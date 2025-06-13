@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function Portfolio() {
   const projects = [
     {
-      image: "/eprofiler.png",
+      image: "/images/eprofiler.png",
       title: "eProfiler – Powermetric Portal",
       description: "A web platform for internal staff and customers to access dashboards, reports, and meter data insights. Key features include user management, custom report groups, and impersonation for support efficiency.",
       features: [
@@ -14,7 +14,7 @@ export default function Portfolio() {
       ]
     },
     {
-      image: "/mms.jpg",
+      image: "/images/mms.jpg",
       title: "MMS – Meter Management System",
       description: "A core operational platform that integrates CRM data, manages invoicing, facilitates B2B communication with market operators, and supports field operations for meter installation and maintenance.",
       features: [
@@ -24,7 +24,7 @@ export default function Portfolio() {
       ]
     },
     {
-      image: "/ffa-lite.png",
+      image: "/images/ffa-lite.png",
       title: "FFA-Lite",
       description: "Field operations and scheduling app built on Salesforce, enabling real-time updates for technicians and dispatchers.",
       features: [
@@ -34,7 +34,7 @@ export default function Portfolio() {
       ]
     },
     {
-      image: "/clear.jpg",
+      image: "/images/clear.jpg",
       title: "CLEAR – Deerwalk",
       description: "Real-time healthcare analytics platform with dashboards, data processing automation, and optimized reporting.",
       features: [

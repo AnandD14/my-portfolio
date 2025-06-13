@@ -28,7 +28,7 @@ export default function About() {
       </div>
 
       <a 
-        href="/anand_resume.pdf" 
+        href="/docs/anand_resume.pdf" 
         download 
         className="inline-block mt-8 bg-blue-600 text-white py-2 px-5 rounded-xl shadow hover:bg-blue-700 transition"
       >

@@ -6,14 +6,20 @@ export default function Contact() {
   const form = useRef();
   const [alert, setAlert] = useState({ type: "", message: "" });
 
+  const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+  const autoReplyTemplateId = process.env.REACT_APP_EMAILJS_AUTO_REPLY_TEMPLATE_ID;
+  const getMessageTemplateId = process.env.REACT_APP_EMAILJS_GET_MESSAGE_TEMPLATE_ID;
+  const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+
+
 
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-      'service_9hkmkaa',
-      'template_ghdrxu8',
+      serviceId,
+      autoReplyTemplateId,
       form.current,
-      'nUZYoKB36NWL7uC36' // or public key
+      publicKey 
     ).then(
       () => console.log("Auto-reply sent to user!"),
       (error) => console.error("Failed to send auto-reply:", error)
@@ -22,10 +28,10 @@ export default function Contact() {
     e.preventDefault();
 
   emailjs.sendForm(
-    'service_9hkmkaa',
-    'template_vogpzbm',
+    serviceId,
+    getMessageTemplateId,
     form.current,
-    'nUZYoKB36NWL7uC36'
+    publicKey
   ).then(() => {
     setAlert({
       type: "success",

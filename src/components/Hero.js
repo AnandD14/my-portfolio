@@ -9,7 +9,7 @@ export default function Hero() {
       className="min-h-screen flex flex-col justify-center items-center text-center px-6"
     >
       <motion.img 
-        src="/anand_image.png" 
+        src="/anand_image.jpg" 
         alt="Anand Darshan" 
         className="w-40 h-40 rounded-full mb-4 shadow-lg" 
         initial={{ scale: 0 }} 

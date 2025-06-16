@@ -18,7 +18,7 @@ export default function Hero() {
       />
       <h1 className="text-5xl md:text-6xl font-bold mb-4">Anand Darshan</h1>
       <p className="text-xl md:text-2xl text-gray-600 mb-10">
-        Experienced Full Stack Engineer | Full Stack Developer | Backend Engineer | Software Engineer | Software Developer | Data Engineer 
+        Experienced Full Stack Engineer | Frontend Software Developer | Full Stack Developer | Backend Engineer | Software Engineer | Software Developer | Data Engineer 
       </p>
       <a href="#portfolio" className="bg-black text-white py-3 px-6 rounded-2xl shadow-lg hover:bg-gray-800 mb-10">
         View My Work

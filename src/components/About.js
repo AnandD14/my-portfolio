@@ -19,7 +19,7 @@ export default function About() {
 
        <h4 className="text-3xl font-semibold mb-6">My Motivation</h4>
         <p>
-          I believe I was created to bring glory to God—not just through what I build with code, but through how I live and love. I strive every day to be the best father I can be to my child, a loving and present husband, a friend you can always count on, a brother who stands by you, and a colleague who's always ready to lend a hand.
+          I believe I was created to bring glory to God—not just through what I build with code, but through how I live and love. I strive every day to be the best father I can be to my child, a loving and present husband and son, a friend you can always count on, a brother who stands by you, and a colleague who's always ready to lend a hand.
         </p>
 
         <p>

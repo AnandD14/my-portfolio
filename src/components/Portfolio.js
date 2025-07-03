@@ -18,6 +18,8 @@ export default function Portfolio() {
       title: "MMS – Meter Management System",
       description: "A core operational platform that integrates CRM data, manages invoicing, facilitates B2B communication with market operators, and supports field operations for meter installation and maintenance.",
       features: [
+        "Developed and maintained microservices using C# .NET Core, enabling modular, scalable, and independently deployable components across the MMS platform",
+        "Refactored monolithic services into loosely coupled APIs, improving maintainability and reducing deployment risk",
         "Enhanced system logging for better monitoring",
         "Implemented rules engine for validations",
         "Improved CI/CD for faster release cycles"

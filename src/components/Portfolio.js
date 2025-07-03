@@ -10,7 +10,7 @@ export default function Portfolio() {
         "Migrated legacy Ember codebase to React",
         "Implemented AWS Cognito & SIMAAS for secure SSO",
         "Aligned with Shell’s BCR compliance",
-        "Built ETL with DMS, S3, Step Functions, Athena"
+        "Built ETL with DMS, S3, Step Functions, Athena, DynamoDB"
       ]
     },
     {
@@ -38,9 +38,9 @@ export default function Portfolio() {
       title: "CLEAR – Deerwalk",
       description: "Real-time healthcare analytics platform with dashboards, data processing automation, and optimized reporting.",
       features: [
-        "Optimized SQL queries for performance",
-        "Automated reporting with Python & cron jobs",
-        "Built interactive dashboards using FusionCharts"
+        "Developed back-end services in Scala using functional programming paradigms and Slick ORM, supporting a real-time healthcare analytics platform.",
+        "Automated reporting with Python & cron jobsImplemented RESTful APIs and optimized SQL queries to enhance performance and data reliability.",
+        "Automated report generation using Python and cron jobs, reducing manual overhead and ensuring timely insights."
       ]
     }
   ];
